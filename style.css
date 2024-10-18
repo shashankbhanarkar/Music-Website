@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+/* Basic styling for body */
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #252529;
+    margin: 0;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Styling for all h2 elements */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Styling for all p elements */
+p {
+    font-size: 1.3rem;
+    margin: 0 11%;
+    text-align: center;
+}
+
+/* Styling for all img elements */
+img {
+    width: 80%;
+}
+
+/* Header navigation styling */
+header nav {
+    display: flex;
+    position: fixed;
+    background-color: #333;
+    color: #332222;
+    width: 100%;
+    height: 40px;
+}
+
+/* Hover effect for navigation links */
+header nav a:hover {
+    background-color: #444;
+    height: 28px;
+}
+
+/* Styling for all anchor (a) elements */
+a {
+    color: #eee;
+    text-decoration: none;
+    padding: 10px 0;
+    width: 100px;
+    text-align: center;
+}
+
+/* Home section styling */
+#home {
+    margin: 0;
+    padding: 0;
+    background-image: url('./Images/showcase.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+}
+
+/* Styling for the content inside the home section */
+#home .myTunes {
+    text-align: center;
+    margin-top: 25vh;
+}
+
+/* Styling for the main title in the home section */
+.myTunes h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+/* Music section styling */
+#music {
+    text-align: center;
+    padding-top: 1px;
+}
+
+/* Specific styling for h2 inside the music section */
+#music h2 {
+    font-size: 2.5rem;
+}
+
+/* Adding margin to the icon inside the music section */
+#music h2 i {
+    margin-right: 10px;
+}
+
+/* Styling for h3 inside the music section */
+#music h3 {
+    font-size: 2rem;
+}
+
+/* Paragraph styling inside the music section */
+#music p {
+    margin-bottom: 2rem;
+}
+
+/* Button styling inside the music section */
+#music a {
+    padding: 1rem;
+    background-color: #b90415;
+    color: #fff;
+    border: none;
+}
+
+/* Hover effect for the button inside the music section */
+#music a:hover {
+    background-color: #d3071b;
+}
+
+/* Styling for additional text in the music section */
+#music .devices {
+    font-size: medium;
+    margin-top: 3rem;
+}
+
+/* Video section styling */
+#video {
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.2rem 0;
+}
+
+/* Button styling inside the video section */
+#video a {
+    display: block;
+    padding: 1rem;
+    background-color: #103063;
+    color: #fff;
+    margin: 20px;
+    border: none;
+}
+
+/* Hover effect for the button inside the video section */
+#video a:hover {
+    background-color: #143f85;
+}
+
+/* Entertainment section styling */
+#entertainment {
+    padding: 10rem 0;
+    background-image: url('./Images/section-bg.jpeg');
+    background-size: bottom/cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Gift card section styling */
+#gift-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    text-align: left;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 33px 0;
+}
+
+/* Styling for the first section inside the gift card section */
+#gift-card .section1 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* Styling for the second section inside the gift card section */
+#gift-card .section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+/* Styling for the h3 element inside the gift card section */
+#gift-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+/* Paragraph styling inside the gift card section */
+#gift-card p {
+    margin: 0;
+    text-align: start;
+    font-size: medium;
+    width: 80%;
+    margin: 10px 0;
+}
+
+/* Styling for icons inside the gift card section links */
+#gift-card a i {
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+/* Styling for links inside the gift card section */
+#gift-card a {
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+/* Additional styling for the second paragraph inside the gift card section */
+#gift-card .card-p2 {
+    border-bottom: 1px solid #333;
+    padding-bottom: 15px;
+}
+
+/* First footer section styling */
+footer:first-child {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+/* Grid layout for the first footer section */
+footer .footer-section1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    text-align: left;
+    padding: 2rem;
+    font-size: 14px;
+}
+
+/* Remove list style for all footer lists */
+footer ul {
+    list-style-type: none;
+}
+
+/* Styling for the first list item inside footer lists */
+footer ul li:first-child {
+    font-size: 1.2rem;
+    border-bottom: 1px solid #444;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Styling for links inside footer lists */
+footer ul li a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+/* Second footer section styling */
+footer .footer-section2 {
+    background-color: #333;
+    text-align: center;
+    padding: 1rem;
+}
